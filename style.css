@@ -1,6 +1,6 @@
-html,body {
+/* html,body {
     height: 100%;
-}
+} */
 body {
     background-image: url('images/gradient-squares.png');
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -13,6 +13,7 @@ h2 {
 
 .navbar {
     background-color: #4aaaa5;
+    min-height: 10vh;
 }
 
 a.nav-link.active {
@@ -26,11 +27,13 @@ a.nav-link.active {
 
 section.container{
     background-color: white;
+    min-height: 80vh;
 }
 
 form.formStyling{
     background-color: white;
     padding: 1rem;
+    min-height: 80vh;
 }
 
 #profilePic {
@@ -42,7 +45,7 @@ form.formStyling{
 #aboutParagraph {
     margin: 10px;
 }
-
+/* Consider changing the code to use Bootstrap button */
 button[type=submit] {
     background-color: #4aaaa5;
     font-weight: bold;
@@ -68,9 +71,10 @@ button[type=submit]:active {
     border: 2px;
     border-radius: 4px;
 }
-
+/* End of button styling */
 footer {
     background-color: #666666;
+    height: 10vh;
     clear: both;
     border-width: 10px 0 0 0;
     margin: auto;
